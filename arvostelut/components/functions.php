@@ -1,10 +1,10 @@
 <?php
 function connect() {
-    $servername = "kuuras22.treok.io";
-    $username = "kuuras22_sasp";
-    $password = "Rabbekuur100";
+    $servername = ;
+    $username = "";
+    $password = "
     //$port = 3306;
-    $dbname = "kuuras22_sasp";
+    $dbname = "";
 
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
